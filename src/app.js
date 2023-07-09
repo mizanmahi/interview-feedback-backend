@@ -52,7 +52,7 @@ app.post('/api/students/update', async (req, res) => {
       );
 
       res.status(200).json({
-         message: 'Feedback and Marks Added',
+         message: 'Feedback and Marks Updated',
          student: updatedStudent,
       });
    } catch (err) {
